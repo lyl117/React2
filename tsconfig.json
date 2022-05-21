@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -21,6 +17,10 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src",
+    "../my-app-001/Span.tsx",
+    "../DIv.jsx",
+    "src/my-app-001/DIv.jsx.jsx",
+    "my-app-001"
   ]
 }
